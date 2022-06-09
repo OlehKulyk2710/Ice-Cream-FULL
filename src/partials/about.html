@@ -1,0 +1,51 @@
+<section class="about" id="about">
+  <div class="container">
+    <p class="about__pre-title">tradition and love</p>
+    <h2 class="about__title">how it’s made?</h2>
+    <div class="about__content-wrap">
+      <div class="about__picture">
+        <picture>
+          <source srcset="./images/pc/about-cow.png 1x, ./images/pc/about-cow-2x.png 2x" media="(min-width: 1280px)">
+          <source srcset="./images/tab/about-cow-tab.png 1x, ./images/tab/about-cow-tab-2x.png 2x" media="(min-width: 768px)">
+          <source srcset="./images/mob/about-cow-mob.png 1x, ./images/mob/about-cow-mob-2x.png 2x" media="(min-width: 320px)">
+          <img class="about__img" src="./images/tab/about-cow-tab.png" alt="cow with milk">
+        </picture>
+      </div>
+      <div class="about__wrap">
+        <p class="about__text about__text--dark">Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo
+            cursus, faucibus lorem eget, egestas eros. Maecenas eleifend erat at justo fringilla.</p>
+        <p class="about__text about__text--grey">Curabitur lacinia enim at ex blandit, vel pellentesque odio elementum.
+            Mauris rhoncus orci in imperdiet placerat. Vestibulum euismod nisl suscipit ligula volutpat, a feugiat urna maximus. Cras massa nibh, tincidunt.</p>
+        <p class="about__text about__text--grey about-text__about-btn">Aliquam erat volutpat. Aenean accumsan.</p>
+        <button type="button" class="btn about__button" about-modal-open>
+         Read more
+            <svg class="about__icon">
+            <use href="./images/icons.svg#icon-vector"></use>
+            </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="about-backdrop about-is-hidden" about-modal>
+    <div class="about-modal">
+      <p class="about-modal__title">More more more</p>
+      <div class="about-modal__text-wrap">
+        <p class="about-modal__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt magni dignissimos iure
+          corporisexercitationem quia suscipit enim eum natus tempora?</p>
+        <p class="about-modal__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt magni dignissimos iure
+          corporis exercitationem quia suscipit enim eum natus tempora?poris exercitationem quia suscipit enim eum natus tempora?Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Sunt magni dignissimos iure
+          corporis exercitation</p>
+        <p class="about-modal__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt magni dignissimos iure
+          corporis exercitationem quia suscipit enim eum natus tempora?Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Sunt magni dignissimos iure
+          corporis exercitationem quia suscipit enim eum natus tempora?Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Sunt magni dignissimos iure
+          corporis exercitationem quia suscipit enim eum natus tempora?Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Sunt magni dignissimos iure
+          corporis exercitation?</p>
+      </div>
+      <button class="btn about-modal__close" about-modal-close >Got it!</button>
+    </div>
+  </div>
+</section>
