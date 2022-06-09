@@ -3,10 +3,10 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://MyshkoMykhailo.github.io/Reach-the-edge-ice-cream",
+  "homepage": "https://OlehKulyk2710.github.io/Ice-Cream-FULL",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /Reach-the-edge-ice-cream/"
+    "build": "parcel build src/*.html --public-url /Ice-Cream-FULL/"
   },
   "repository": {
     "type": "git",
